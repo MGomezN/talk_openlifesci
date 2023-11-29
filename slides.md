@@ -61,14 +61,30 @@ Depends on the scope, the context and the lifetime.
 
 ===============================================================================
 
+> * **Names For Baby**. Buy a copy of a baby naming book and you’ll never be at a loss for variable names. Fred is a wonderful name and easy to type.
+>* **Misleading names**. Make sure that every method does a little bit more (or less) than its name suggests.
+>* **Single Letter Variable Names**. Nobody will be able to guess what they are for.
+>* **CapiTaliSaTion**. Randomly capitalize the first letter of a syllable in the middle of a word.
+
+ [Unmaintainable code ©2000-2017 Roedy Green](https://www.mindprod.com/jgloss/unmain.html)
+
+<div class="footnote-left dark">
+
+⚠️ Content is intended to be humorous or satirical.
+
+</div>
+
+===============================================================================
+
 <!-- .slide: class="slide-transition" -->
 
-# Why 
-## Your purpose cause or belief
-# How
-## Your values and strenghts in action
 # What
 ## The results of putting your WHY into action
+# How
+## Your values and strenghts in action
+# Why 
+## Your purpose cause or belief
+
 
 <div class="footnote-left dark">
 
@@ -76,6 +92,8 @@ Depends on the scope, the context and the lifetime.
 
 
 </div>
+
+
 
 ===============================================================================
 
@@ -107,16 +125,6 @@ Check out this webinar on [Identifying code smells](https://www.youtube.com/watc
 * Olaitan Awe ([Writing reproducible code](https://youtu.be/hOiDzn4Iqp4?t=311))
 * Leah Wasser ([From scripts to packages](https://youtu.be/hOiDzn4Iqp4?t=1582))
 * Gemma Turon ([Code style and code testing](https://drive.google.com/file/d/1w8AUnsbwSpqfEK0YxKmSZGIeIlEbppSN/view))
-
-</div>
-<div class="footnote">
-
-This is a little footnote.
-Use it to add notes, citations, [links](https://www.leouieda.com/), etc.
-<br>
-Notice how the `div` above uses `r-stretch` to push this note to the bottom.
-
-</div>
 
 ===============================================================================
 
@@ -158,9 +166,9 @@ https://academy.climatematch.io
 
 # Good coding practices learned in community
 
-* Scripts (GeoLatinas)
-* Modular (Geolatinas, Climatematch)
-* Installable (Fatiando a Terra)
+* Scripts 
+* Modular 
+* Installable
 
 
 ===============================================================================
@@ -185,9 +193,9 @@ https://academy.climatematch.io
 ===============================================================================
 
 # Educational materials
-* Avoid be highly specific lessening potential for reuse
-* Submit improvements to the materials
-* No reinventing the wheel
+* Promote Generalization. Avoid being overly specific to enhance the potential for reuse in diverse educational contexts.
+
+* Avoid Redundancy. No reinventing the wheel
 
 ===============================================================================
 # Lessons learned in Fatiando a Terra
