@@ -173,7 +173,7 @@ https://academy.climatematch.io
 
 ===============================================================================
 
-# Lessons learned in GeoLatinas community
+# Lessons learned in GeoLatinas
 
 * Coding accountability
 * #StrongerTogether Mindset
@@ -182,7 +182,7 @@ https://academy.climatematch.io
 
 
 ===============================================================================
-# Lessons learned in CMA
+# Lessons learned in Climatematch Academy
 
 * JupyterBook
 * Think about the analysis that has to be done with the databasis
@@ -193,21 +193,28 @@ https://academy.climatematch.io
 ===============================================================================
 
 # Educational materials
-* Promote Generalization. Avoid being overly specific to enhance the potential for reuse in diverse educational contexts.
+* **Promote Generalization.** Avoid being overly specific to enhance the potential for reuse in diverse educational contexts.
 
-* Avoid Redundancy. No reinventing the wheel
+* **Avoid Redundancy.** No reinventing the wheel
 
 ===============================================================================
 # Lessons learned in Fatiando a Terra
 
-* Development started in 2010
-* 2013 First Documentation generated on Sphinx
-* Not designed for testeability 
-* Difficult to mantain
-* Foundation was unstable to keep growing
-* Need to learn software engineer
-* 2018 Stop Coding developing, major refactoring
+* 2010 - Development started
+* 2013 - First Documentation generated on Sphinx
+  - Not designed for testeability 
+  - Difficult to mantain
+  - Foundation was unstable to keep growing
+  - Need to learn software engineer
+* 2018 - Stop Coding developing, major refactoring
 
+</div>
+</div>
+<div class="footnote-left">
+
+[Open-science for gravimetry: tools, challenges, and opportunities | GFZ Helmholtz Centre Potsdam](https://www.youtube.com/watch?v=z-5dvWfB_SM)
+
+</div>
 
 ===============================================================================
 # Lessons learned in Fatiando a Terra
@@ -218,7 +225,15 @@ https://academy.climatematch.io
 * Use modern tools for testing and generate documentation
 * Parallel computing so it can solve complex problems in small computers
 * Deep understanding of the geophysics involve
-* State of the art algorthms
+* State of the art algorithms
+
+</div>
+</div>
+<div class="footnote-left">
+
+[Open-science for gravimetry: tools, challenges, and opportunities | GFZ Helmholtz Centre Potsdam](https://www.youtube.com/watch?v=z-5dvWfB_SM)
+
+</div>
 
 ===============================================================================
 
