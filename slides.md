@@ -12,13 +12,11 @@ The reveal.js configuration can be found in index.html
 </div>
 
 <h1 id="talk-title">
-  A long talk title that may <br>be kind of boring and <br>more than one line long
+Good Coding Practices  
 </h1>
 <p id="talk-authors">
-  <a href="https://www.leouieda.com" id="talk-speaker">Leonardo Uieda</a>,
-  Author Two,
-  and
-  Author Three
+  <a href="https://www.leouieda.com" id="talk-speaker">Mariana Gómez-Nicolás</a>
+
 </p>
 
 <!-- Place location and date side-by-side with affiliation logos -->
@@ -26,9 +24,9 @@ The reveal.js configuration can be found in index.html
 <div class="col-large">
 
 <i class="fa fa-calendar-alt" style="margin: 0 10px 0 0"></i>
-XX Month 202X
+29 November 2023
 <span style="margin: 0 20px"></span>
-Event/host of the talk
+Open Life Science
 
 <!-- Permission to reuse and CC-BY license logo -->
 <i class="fa fa-camera" style="margin: 0 10px 0 0"></i>
@@ -39,41 +37,76 @@ Feel free to screenshot/share/reuse this presentation
 </div>
 <div class="col-medium">
 
-<!-- Add logos here. Need these wrappers to align them to the bottom right -->
-<div class="talk-logos-container">
-<div class="talk-logos">
-  <a href="https://www.compgeolab.org"><img src="assets/compgeolab-banner-light.svg" alt="Computer-Oriented Geoscience Lab"></a>
-  <a href="https://www.iag.usp.br/"><img src="assets/iag.png" alt="Instituto de Astronomia, Geofísica e Ciências Atmosféricas"></a>
-  <a href="https://www.usp.br/"><img src="assets/usp.png" alt="Universidade de São Paulo"></a>
 </div>
 </div>
 
-</div>
+
+===============================================================================
+
+# What is "good code"?
+
+Depends on the scope, the context and the lifetime.
+
+===============================================================================
+
+>"In the interests of creating **employment opportunities** in the Java programming field(...), follow all these rules religiously, you will even guarantee yourself a lifetime of employment, since no one but you has a hope in hell of maintaining the code."
+
+ [Unmaintainable code ©2000-2017 Roedy Green](https://www.mindprod.com/jgloss/unmain.html)
+
+<div class="footnote-left dark">
+
+⚠️ Content is intended to be humorous or satirical.
+
 </div>
 
 ===============================================================================
 
-# Heading 1
+<!-- .slide: class="slide-transition" -->
 
-This is a slide with some content.
+# Why 
+## Your purpose cause or belief
+# How
+## Your values and strenghts in action
+# What
+## The results of putting your WHY into action
 
-## Heading 2
+<div class="footnote-left dark">
 
-* Bla bla
-* Bla bla
+[Simon Sinek](https://simonsinek.com/)
 
-### Heading 3
 
-Meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh
-meh meh.
+</div>
+
+===============================================================================
+
+# What is "good code"?
+
+Depends on the scope, the context and the lifetime.
+
+Clean Code → Testeable → Maintainable → Extendable 
+
+------- Refactoring ---------
+
+</div>
+</div>
+<div class="footnote-left">
+
+Detection of code smells play an important role
+<br>
+Check out this webinar on [Identifying code smells](https://www.youtube.com/watch?v=IzdpizfaVbU)
+
+</div>
 
 ===============================================================================
 
 <div class="r-stretch">
 
-# Some facts
+# Previous OLS talks
 
-About a certain topic.
+* Yanina Bellini ([What is "Good Code", "smells", "refactoring"](https://www.youtube.com/watch?v=hOiDzn4Iqp4&t=4248s))
+* Olaitan Awe ([Writing reproducible code](https://youtu.be/hOiDzn4Iqp4?t=311))
+* Leah Wasser ([From scripts to packages](https://youtu.be/hOiDzn4Iqp4?t=1582))
+* Gemma Turon ([Code style and code testing](https://drive.google.com/file/d/1w8AUnsbwSpqfEK0YxKmSZGIeIlEbppSN/view))
 
 </div>
 <div class="footnote">
@@ -87,80 +120,163 @@ Notice how the `div` above uses `r-stretch` to push this note to the bottom.
 
 ===============================================================================
 
-<div class="r-stretch centered">
-<div>
+<!-- .slide: data-background-image="assets/geolatinas_coding_group.jpeg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#000000" -->
 
-# Even more facts!
+<div class="quote">
 
-About many different things.
-
-</div>
-</div>
-<div class="footnote-left">
-
-Left aligned footnote.
-Use `centered` on the `div` above to vertically center content.
+<h1>
+Come for the <strong>code</strong> <i class="fas fa-code"></i>
 <br>
-Need to put another `div` inside of it as well.
+Stay for the <strong>community</strong> <i class="fas fa-users"></i>
+</h1>
 
 </div>
 
 ===============================================================================
 
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-color="#000000" -->
+<!-- .slide: data-background-image="assets/communities.svg" data-background-size="contain" data-background-color="#000000" -->
 
 <div class="r-stretch">
 </div>
 <div class="footnote-center dark">
 
-Centered footnote with a dark background on a slide with a background.
+https://www.cicese.edu.mx
 <br>
-Set the size to `contain` to make sure aspect ratios are preserved and the
-background isn't cropped.
+https://www.geolatinas.org
 <br>
-It's a good idea to add alt-text to this footnote if the background is
-important.
+https://www.fatiando.org 
+<br>
+https://carpentries.org
+<br>
+https://academy.climatematch.io
 
 </div>
 
 ===============================================================================
 
-<!-- .slide: data-background-video="assets/brasil-sao-paulo-rio.mp4" data-background-size="contain" data-background-color="#000000" -->
 
-<div class="r-stretch">
-</div>
-<div class="footnote">
 
-This is how you use a video background.
-The video auto starts when flipping to this slide.
+# Good coding practices learned in community
 
-</div>
+* Scripts (GeoLatinas)
+* Modular (Geolatinas, Climatematch)
+* Installable (Fatiando a Terra)
+
+
+===============================================================================
+
+# Lessons learned in GeoLatinas community
+
+* Coding accountability
+* #StrongerTogether Mindset
+* Positive Learning Atmosphere
+* Diversity in Skills, Unity in Team
+
+
+===============================================================================
+# Lessons learned in CMA
+
+* JupyterBook
+* Think about the analysis that has to be done with the databasis
+* Don't subestimate creativity of people
+* Who is going to use your code? 
+* Accesibility statement 
+
+===============================================================================
+
+# Educational materials
+* Avoid be highly specific lessening potential for reuse
+* Submit improvements to the materials
+* No reinventing the wheel
+
+===============================================================================
+# Lessons learned in Fatiando a Terra
+
+* Development started in 2010
+* 2013 First Documentation generated on Sphinx
+* Not designed for testeability 
+* Difficult to mantain
+* Foundation was unstable to keep growing
+* Need to learn software engineer
+* 2018 Stop Coding developing, major refactoring
+
+
+===============================================================================
+# Lessons learned in Fatiando a Terra
+
+* Suplement the ecosystem
+* Split into libraries
+* Every piece of code is a stable foundation to develop the rest
+* Use modern tools for testing and generate documentation
+* Parallel computing so it can solve complex problems in small computers
+* Deep understanding of the geophysics involve
+* State of the art algorthms
+
+===============================================================================
+
+# Documentation
+
+* Documentation is another form of communication within our projects. 
+* FAQs section in documentation pages. 
 
 ===============================================================================
 
 <!-- .slide: class="slide-transition" -->
 
-# A transition slide <br> with a large title
+# Once upon a time, 
+# there was a major release on Zenodo
+# October 13, 2023
 
-...and some text.
+<div class="footnote-left dark">
 
-===============================================================================
+[Zenodo](https://zenodo.org/)
 
-# Maths
-
-This is an inline $\int_a^b x^2 dx$ and $\delta g = g - \gamma$:
-
-`\[ \int_a^b x^2 dx \]`
+</div>
 
 ===============================================================================
 
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#000000" -->
+# Pooch-Zenodo issue
+* Zenodo migrated to InvenioRDM
+* Their new API was not backward compatible 
+* Pooch Zenodo downloader was not working anymore
 
-<div class="quote">
+> Dramatic music 
 
-Big quote message with a faded background image.
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
+===============================================================================
 
+<!-- .slide: data-background-image="assets/2.svg" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-center dark">
+
+https://zenodo.org/
+<br>
+</div>
+
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/3.svg" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-center dark">
+
+https://github.com/fatiando/pooch/issues/371
+<br>
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/4.svg" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-center dark">
+
+https://github.com/fatiando/pooch/pull/375
+<br>
 </div>
 
 ===============================================================================
@@ -169,186 +285,19 @@ Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
 
 <div class="quote dark">
 
-Light fade of the background with a dark quote.
+ "[Final lesson learned: Friday the 13th[**] might not have been a good day for a major release after all.](https://blog.zenodo.org/2023/10/19/2023-10-19-upgrade-issues/)" 
 
 </div>
 
 ===============================================================================
 
-# Two column layout
+<!-- .slide: data-background-video="assets/cicese.webm" data-background-size="contain" data-background-color="#000000" -->
 
-<div class="row">
-<div class="col">
-
-## Theory
-
-Explain something here.
-This is how you make a FontAwesome list:
-
-<ul class="fa-ul">
-
-<li>
-<span class="fa-li"> <i class="fa fa-lightbulb fa-fw"></i> </span>
-Make a list with
-</li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-file-alt fa-fw"></i> </span>
-some awesome icons
-</li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-users fa-fw"></i> </span>
-instead of bullet points
-</li>
-
-</ul>
-
+<div class="r-stretch">
 </div>
-<div class="col tiny">
+<div class="footnote-center dark">
 
-<img src="assets/halfspace-temperature.png">
-
-Some text explaining the figure.
-Maybe even a bit of maths like $\gamma$.
-
-</div>
-</div>
-
-<div class="footnote">
-
-Good place for a citation or image credit.
-This one is by Leonardo Uieda (CC-BY).
-
-</div>
-
-===============================================================================
-
-<div class="r-stretch centered">
-<div>
-
-# Multiple columns
-
-Place as many `col`s as you want. They will have the same size.
-
-<div class="row">
-<div class="col">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/nbr_thomas_fire.jpg">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/halfspace-temperature.png">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-</div>
-
-</div>
-</div>
-<div class="footnote">
-
-Images by Leonardo Uieda (CC-BY).
-
-</div>
-
-===============================================================================
-
-# This one has columns of different size
-
-<div class="row">
-<div class="col-large tiny">
-
-<img style="width: 95%;" src="assets/nbr_thomas_fire.jpg">
-
-This way the image is larger on the screen. Use it for maps or main figures.
-
-</div>
-<div class="col small">
-
-Explain what is shown on the image.
-Use the `small` class to adjust font size.
-
-Maybe include some maths:
-
-$ D\dfrac{\partial^4 w}{\partial x^4} = q - g (\rho_m - \rho_w) w $
-
-</div>
-</div>
-
-===============================================================================
-
-<div class="row">
-<div class="col tiny">
-
-<img src="assets/japan-trench-globalcmt.png">
-
-This way the image is narrow so it should be in a smaller column.
-
-</div>
-<div class="col-medium">
-
-# Column sizes
-
-Columns come in 3 sizes:
-
-1. `col`
-1. `col-medium`
-1. `col-large`
-
-These are more proportions than fixed sizes.
-
-</div>
-</div>
-
-===============================================================================
-
-# Code
-
-Example of using PyGMT to make a map:
-
-<div class="row">
-<div class="col-large fragment small">
-
-This code:
-
-```python
-import pygmt
-
-# Load built-in topography data
-grid = pygmt.datasets.load_earth_relief()
-
-fig = pygmt.Figure()
-# Pseudo-color map of topography
-fig.basemap(
-    region=[-150, -30, -60, 60],
-    projection="I-90/6i",
-    frame=True,
-)
-fig.grdimage(grid=grid, cmap="viridis")
-# Mask continents in dark grey
-fig.coast(land="#333333")
-# Display in Jupyter or pop-up window
-fig.show()
-```
-</div>
-<div class="col-medium fragment small">
-
-Makes this map 👇
-
-<img style="width: 90%" src="assets/pygmt-example.png">
+[Ensenada Center for Scientific Research and Higher Education]((https://www.cicese.edu.mx/)
 
 </div>
 
@@ -361,14 +310,13 @@ Makes this map 👇
 
 <i class="fas fa-comments"></i>
 <br>
-Contact:
-<a href="https://www.leouieda.com">www.leouieda.com</a>
+Contact: mariana@cicese.edu
 
 <i class="fab fa-github"></i>
 <br>
 Source code for this presentation:
 <br>
-[github.com/leouieda/talk-template](https://github.com/leouieda/talk-template)
+[github.com/MGomezN/talk_openlifesci](https://github.com/MGomezN/talk_openlifesci)
 
 <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
 <br>
@@ -382,7 +330,6 @@ licensed under the
 </div>
 <div class="footnote-left dark">
 
-The background image is a Landsat 9 scene of the city of São Paulo, Brazil,
-showing the USP campus in the center.
+Thanks to [Leonardo Uieda](https://github.com/leouieda/talk-template) to provide original source code
 
 </div>

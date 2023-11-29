@@ -1,11 +1,10 @@
-# Template for my reveal.js based slides
+# Template for reveal.js based slides
 
-This is a template I use to make [reveal.js](https://revealjs.com/) slides
-for talks and lectures.
+This is a template taken from https://github.com/leouieda/talk-template to make [reveal.js](https://revealjs.com/) slides for talks and lectures.
 It adds some custom styling and CSS classes for making columns, footnotes,
 and more.
 
-**Preview:** https://www.leouieda.com/talk-template
+**Preview:** https://mgomezn.github.io/talk_openlifesci/
 
 > The original inspiration is this template by Matthew Turk:
 > https://github.com/matthewturk/mjt-talk-template
@@ -90,7 +89,7 @@ python serve.py
 ```
 
 The slides will open on your default browser and will automatically reload
-when you update any of the files in the repository.
+when you update any of the files in the repository. If reload does not occur automatically, please check your cache configuration.
 
 ## Serving on GitHub Pages
 
